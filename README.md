@@ -3,14 +3,14 @@ This project : <br />
 1.Performs real-time object detection with YOLOv3  <br />
 2.Uses OpenCV to manipulate video data <br />
 3.Uses pre-trained models and COCO dataset to perform real-time and passive inference with/without a GPU <br />
-4.Develops a simple command line application with Python for inference  which saves output as a .mp4 file(yolo_utils.py&yolo.py) <br />
+4.Develops a simple command line application with Python for inference(identification with confidence score) which saves output as a .mp4 file(yolo_utils.py&yolo.py) <br />
 <br />
 Download pretrained yolov3 weights- $wget https://pjreddie.com/media/files/yolov3.weights  <br />
 Download pretrained yolov3-tiny weights- $wget https://pjreddie.com/media/files/yolov3-tiny.weights <br />
-Use darknet directory: git clone https://github.com/pjreddie/darknet<br />
+Use darknet directory: $git clone https://github.com/pjreddie/darknet<br />
 for more info on darkset visit:https://pjreddie.com/darknet/yolo/ <br />
 <br />
-Note:Output sample image for yolov3 and yolov3 tiny are uploaded <br />
+Note:Output sample image for yolov3 and yolov3-tiny are uploaded <br />
 <br />
 <br />
 To run use following commands:<br />
