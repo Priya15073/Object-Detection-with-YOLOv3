@@ -16,4 +16,4 @@ Note:Output sample image for yolov3 and yolov3 tiny are uploaded <br />
 To run use following commands:<br />
 1. for seeing yolov3-tiny output- $./darknet detector demo cfg/coco.data cfg/yolov3-tiny.cfg yolov3-tiny.weights Driving-Chinatown-SF.mp4<br />
 2. for seeing yolov3 output-$./darknet detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights Driving-Chinatown-SF.mp4 <br />
-3. for running saving output.mp4- $python3 yolo.py -w=yolov3-tiny.weights -cfg=cfg/yolov3-tiny.cfg -v=Market\ street.mp4  -l=data/coco.names<br />
+3. for running saving output.mp4/.mov- $python3 yolo.py -w=yolov3-tiny.weights -cfg=cfg/yolov3-tiny.cfg -v=Market\ street.mp4  -l=data/coco.names<br />
